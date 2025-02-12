@@ -15,15 +15,14 @@ const Navbar = ({ onReset, onCopy, syncScroll, setSyncScroll }) => {
         <button onClick={onReset}>Reset</button>
         <button onClick={handleCopyClick}>{copyText}</button>
       </div>
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            checked={syncScroll}
-            onChange={(e) => setSyncScroll(e.target.checked)}
-          />
-          Sync Scroll
-        </label>
+      <div className="sync-scroll-container">
+        <input
+          type="checkbox"
+          id="syncScrollCheckbox"
+          checked={syncScroll}
+          onChange={(e) => setSyncScroll(e.target.checked)}
+        />
+        <label htmlFor="syncScrollCheckbox">Sync Scroll</label>
       </div>
     </div>
   );
