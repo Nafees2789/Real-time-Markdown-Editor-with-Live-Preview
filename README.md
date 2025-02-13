@@ -2,8 +2,6 @@
 
 A **real-time** Markdown editor built with **React (Frontend)** and **Node.js (Backend)** that **converts Markdown to HTML live** with **syntax highlighting**.
 
----
-
 ## 🚀 Features
 
 ✅ **Real-time Markdown to HTML conversion**  
@@ -12,8 +10,6 @@ A **real-time** Markdown editor built with **React (Frontend)** and **Node.js (B
 ✅ **Copy Markdown with one click**  
 ✅ **Reset editor easily**
 
----
-
 ## 🛠️ Prerequisites
 
 Before setting up the project, ensure you have the following installed:
@@ -21,8 +17,6 @@ Before setting up the project, ensure you have the following installed:
 - **[Node.js](https://nodejs.org/)** (v14 or later)
 - **[npm](https://www.npmjs.com/)** (v6 or later)
 - **[Git](https://git-scm.com/)** (to clone the repository)
-
----
 
 ## 📥 Clone the Repository
 
