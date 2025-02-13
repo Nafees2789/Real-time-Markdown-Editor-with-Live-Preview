@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm'; // ✅ Import remark-gfm
+import remarkGfm from 'remark-gfm'; // Import remark-gfm
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { materialLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
@@ -26,7 +26,7 @@ const Preview = ({ markdown, previewRef, onScroll }) => {
     <div className="preview" ref={previewRef} onScroll={onScroll}>
       <ReactMarkdown
         children={markdown}
-        remarkPlugins={[remarkGfm]} // ✅ Enable GitHub Flavored Markdown
+        remarkPlugins={[remarkGfm]} // Enable GitHub Flavored Markdown
         components={{
           code({ node, inline, className, children, ...props }) {
             return !inline ? (
